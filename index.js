@@ -223,11 +223,14 @@ function transform() {
         hasTransformed = true
         arabicEl.style.fontSize = "25px"
         arabicEl.textContent = rabbana.trans[i]
+        arabicEl.style.lineHeight = "25px"
 
     } else {
         hasTransformed = false
         arabicEl.textContent = rabbana.arabicText[i]
-        arabicEl.style.fontSize = "50px"
+        arabicEl.style.fontSize = "40px"
+        arabicEl.style.lineHeight = "40px"
+
     }
 }
 
