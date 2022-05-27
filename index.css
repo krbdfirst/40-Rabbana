@@ -143,14 +143,6 @@ button:active {
     }
 }
 
-.footText {
-    position: absolute;
-    top: 80%;
-    font-size: 15px;
-    width: 100vw;
-    display: block;
-
-}
 
 .wrapper {
     display: flex;

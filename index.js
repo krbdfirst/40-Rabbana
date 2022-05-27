@@ -254,6 +254,8 @@ function runBack() {
         operation()
     }
 }
+
+window.onload = alert("Tap On the Arabic text To Switch to Translitration")
 // function playPause() {
 
 //     if (hasPlayed === false) {
