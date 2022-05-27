@@ -229,7 +229,7 @@ function transform() {
         hasTransformed = false
         arabicEl.textContent = rabbana.arabicText[i]
         arabicEl.style.fontSize = "40px"
-        arabicEl.style.lineHeight = "40px"
+        arabicEl.style.lineHeight = "50px"
 
     }
 }
