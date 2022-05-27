@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="rabbana-card">
+
+            <div class="numbering" id="num">
+                1/40
+            </div>
+            <div class="textcontent">
+                <div class="arabic-text" id="arabic" onclick="transform()">
+
+                </div>
+                <div class="mean-text" id="meaning">
+
+                </div>
+            </div>
+
+            <div class="bottom">
+                <audio id="audio" src="assets/audio/rabbana1.mp3" type="audio/mpeg">
+                </audio>
+                <div class="play plychn" onclick="playPause()"> <img class="playbtn" src="assets/play-button.png" alt=""
+                        id="play-btn"></div>
+                <div class="change plychn" onclick="runBack()">
+                    <img class="changebtn" src="assets/swap.png" alt="">
+                </div>
+                <button onclick="prev()">
+                    << Prev</button>
+                        <button onclick="next()">Next >></button>
+            </div>
+        </div>
+
+    </div>
+    <span class="footText"> Tap on the Arabic Text to get Translitration</span>
+    <script src="index.js"></script>
+</body>
+
+</html>
