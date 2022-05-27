@@ -223,7 +223,7 @@ function transform() {
         hasTransformed = true
         arabicEl.style.fontSize = "25px"
         arabicEl.textContent = rabbana.trans[i]
-        arabicEl.style.lineHeight = "25px"
+        arabicEl.style.lineHeight = "30px"
 
     } else {
         hasTransformed = false

@@ -86,9 +86,10 @@ body {
 } */
 
 .arabic-text {
-    font-size: 50px;
+    font-size: 40px;
     padding: 50px 0px;
     cursor: pointer;
+    line-height: 50px;
 
 }
 
